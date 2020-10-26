@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Thu Feb 13 10:47:10 2020
+# Process ID: 14889
+# Current directory: /home/dewei/WorkSpace/FPGA/Project/test_vu/test_vu.runs/impl_1
+# Command line: vivado -log top_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_wrapper.tcl -notrace
+# Log file: /home/dewei/WorkSpace/FPGA/Project/test_vu/test_vu.runs/impl_1/top_wrapper.vdi
+# Journal file: /home/dewei/WorkSpace/FPGA/Project/test_vu/test_vu.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top_wrapper.tcl -notrace

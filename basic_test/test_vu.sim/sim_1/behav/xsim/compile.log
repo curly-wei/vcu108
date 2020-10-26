@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dewei/WorkSpace/FPGA/Project/test_vu/test_vu.srcs/sources_1/new/test_vu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cnt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dewei/WorkSpace/FPGA/Project/test_vu/test_vu.srcs/sim_1/new/test_vu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cnt_tb

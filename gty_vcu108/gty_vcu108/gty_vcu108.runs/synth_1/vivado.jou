@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Sun Oct 18 22:43:57 2020
+# Process ID: 1980
+# Current directory: C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/synth_1
+# Command line: vivado.exe -log gtwizard_ultrascale_0_example_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gtwizard_ultrascale_0_example_top.tcl
+# Log file: C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/synth_1/gtwizard_ultrascale_0_example_top.vds
+# Journal file: C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source gtwizard_ultrascale_0_example_top.tcl -notrace

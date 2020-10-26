@@ -1,0 +1,267 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6CED6961B3227C",
+      "device": "xcvu095-ffva2104-2-e",
+      "name": "top",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "ila_0": "",
+      "cnt_0": ""
+    },
+    "ports": {
+      "reset_n_in": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "btn_in": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "cnt_val_out": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "and_out": {
+        "direction": "O"
+      },
+      "clk_in_N": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "top_clk_in_N",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "clk_in_P": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "top_clk_in_P",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "top_clk_wiz_0_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "80.0"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "119.348"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "96.948"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "125.000"
+          },
+          "CLK_IN1_BOARD_INTERFACE": {
+            "value": "Custom"
+          },
+          "CLK_IN2_BOARD_INTERFACE": {
+            "value": "Custom"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "8.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "8.000"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.000"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "8.000"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "1"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "125"
+          },
+          "PRIM_SOURCE": {
+            "value": "Differential_clock_capable_pin"
+          },
+          "RESET_BOARD_INTERFACE": {
+            "value": "Custom"
+          },
+          "RESET_PORT": {
+            "value": "resetn"
+          },
+          "RESET_TYPE": {
+            "value": "ACTIVE_LOW"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          }
+        }
+      },
+      "ila_0": {
+        "vlnv": "xilinx.com:ip:ila:6.2",
+        "xci_name": "top_ila_0_0",
+        "parameters": {
+          "C_ENABLE_ILA_AXI_MON": {
+            "value": "false"
+          },
+          "C_MONITOR_TYPE": {
+            "value": "Native"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "4"
+          },
+          "C_PROBE1_WIDTH": {
+            "value": "2"
+          },
+          "C_PROBE3_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "cnt_0": {
+        "vlnv": "xilinx.com:module_ref:cnt:1.0",
+        "xci_name": "top_cnt_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "cnt",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "reset_n": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "top_clk_wiz_0_0_clk_out1",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "btn": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "and_gate_result": {
+            "direction": "O"
+          },
+          "cnt_val": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "ila_0/clk",
+          "cnt_0/clk"
+        ]
+      },
+      "cnt_0_and_gate_result": {
+        "ports": [
+          "cnt_0/and_gate_result",
+          "ila_0/probe2",
+          "and_out"
+        ]
+      },
+      "cnt_0_cnt_val": {
+        "ports": [
+          "cnt_0/cnt_val",
+          "ila_0/probe3",
+          "cnt_val_out"
+        ]
+      },
+      "reset_n_in_1": {
+        "ports": [
+          "reset_n_in",
+          "clk_wiz_0/resetn",
+          "ila_0/probe0",
+          "cnt_0/reset_n"
+        ]
+      },
+      "btn_in_1": {
+        "ports": [
+          "btn_in",
+          "ila_0/probe1",
+          "cnt_0/btn"
+        ]
+      },
+      "clk_in_N_1": {
+        "ports": [
+          "clk_in_N",
+          "clk_wiz_0/clk_in1_n"
+        ]
+      },
+      "clk_in_P_1": {
+        "ports": [
+          "clk_in_P",
+          "clk_wiz_0/clk_in1_p"
+        ]
+      }
+    }
+  }
+}

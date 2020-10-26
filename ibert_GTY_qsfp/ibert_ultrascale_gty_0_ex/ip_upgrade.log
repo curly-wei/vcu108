@@ -1,0 +1,16 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
+| Date         : Mon Aug 17 09:39:59 2020
+| Host         : ntuphys521 running 64-bit Arch Linux
+| Command      : upgrade_ip
+| Device       : xcvu095-ffva2104-2-e
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ibert_ultrascale_gty_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ibert_ultrascale_gty_0 (xilinx.com:ip:ibert_ultrascale_gty:1.3) from (Rev. 3) to (Rev. 4)
+

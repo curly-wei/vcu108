@@ -1,0 +1,30 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.62451",
+   "Default View_TopLeft":"-608,-355",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port reset_n_in -pg 1 -lvl 0 -x -480 -y -270 -defaultsOSRD
+preplace port and_out -pg 1 -lvl 3 -x 160 -y -80 -defaultsOSRD
+preplace port clk_in_N -pg 1 -lvl 0 -x -480 -y -310 -defaultsOSRD
+preplace port clk_in_P -pg 1 -lvl 0 -x -480 -y -290 -defaultsOSRD
+preplace portBus btn_in -pg 1 -lvl 0 -x -480 -y -50 -defaultsOSRD
+preplace portBus cnt_val_out -pg 1 -lvl 3 -x 160 -y -60 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x -310 -y -300 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 2 -x -10 -y -260 -defaultsOSRD
+preplace inst cnt_0 -pg 1 -lvl 2 -x -10 -y -70 -defaultsOSRD
+preplace netloc clk_wiz_0_clk_out1 1 1 1 -190 -300n
+preplace netloc cnt_0_and_gate_result 1 1 2 -160 -160 140
+preplace netloc cnt_0_cnt_val 1 1 2 -150 -150 130
+preplace netloc reset_n_in_1 1 0 2 -460 -210 -170
+preplace netloc btn_in_1 1 0 2 NJ -50 -180
+preplace netloc clk_in_N_1 1 0 1 N -310
+preplace netloc clk_in_P_1 1 0 1 N -290
+levelinfo -pg 1 -480 -310 -10 160
+pagesize -pg 1 -db -bbox -sgen -620 -490 340 170
+"
+}
+{
+   "da_board_cnt":"1"
+}
