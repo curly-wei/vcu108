@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/impl_1/gtwizard_ultrascale_0_example_top.tcl"
+  variable script "/home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/impl_1/gtwizard_ultrascale_0_example_top.tcl"
   variable category "vivado_impl"
 }
 
@@ -114,8 +114,6 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 OPTRACE "Implementation" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -123,7 +121,7 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 4
+  set_param chipscope.maxJobs 6
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xcvu095-ffva2104-2-e
   set_property board_part xilinx.com:vcu108:part0:1.7 [current_project]
@@ -131,19 +129,20 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.cache/wt [current_project]
-  set_property parent.project_path C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.xpr [current_project]
-  set_property ip_output_repo C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.cache/wt [current_project]
+  set_property parent.project_path /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.xpr [current_project]
+  set_property ip_output_repo /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  set_property XPM_LIBRARIES XPM_CDC [current_project]
+  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/synth_1/gtwizard_ultrascale_0_example_top.dcp
-  read_ip -quiet c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
-  read_ip -quiet C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/gtwizard_ultrascale_0/gtwizard_ultrascale_0.xci
-  read_ip -quiet c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/vio_0/vio_0.xci
+  add_files -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/synth_1/gtwizard_ultrascale_0_example_top.dcp
+  read_ip -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+  read_ip -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/gtwizard_ultrascale_0/gtwizard_ultrascale_0.xci
+  read_ip -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/vio_0/vio_0.xci
+  read_ip -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/ila_xcvr_data/ila_xcvr_data.xci
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/constrs_1/imports/imports/gtwizard_ultrascale_0_example_top.xdc
+  read_xdc /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/constrs_1/imports/imports/gtwizard_ultrascale_0_example_top.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
@@ -308,7 +307,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
-  set_property XPM_LIBRARIES XPM_CDC [current_project]
+  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
   catch { write_mem_info -force gtwizard_ultrascale_0_example_top.mmi }
 OPTRACE "write_bitstream setup" END { }
 OPTRACE "write_bitstream" START { }

@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/synth_1/gtwizard_ultrascale_0_example_top.tcl"
+  variable script "/home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/synth_1/gtwizard_ultrascale_0_example_top.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,9 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xcvu095-ffva2104-2-e
 
@@ -80,43 +77,49 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.cache/wt [current_project]
-set_property parent.project_path C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.xpr [current_project]
-set_property XPM_LIBRARIES XPM_CDC [current_project]
+set_property webtalk.parent_dir /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.cache/wt [current_project]
+set_property parent.project_path /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.xpr [current_project]
+set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part xilinx.com:vcu108:part0:1.7 [current_project]
-set_property ip_output_repo c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.cache/ip [current_project]
+set_property ip_output_repo /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_wrapper_functions.v
-set_property file_type "Verilog Header" [get_files C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_wrapper_functions.v]
+read_verilog /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_wrapper_functions.v
+set_property file_type "Verilog Header" [get_files /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_wrapper_functions.v]
 read_verilog -library xil_defaultlib {
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_bit_sync.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_checking_64b66b_async.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_gtwiz_userclk_rx.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_gtwiz_userclk_tx.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_init.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_reset_sync.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_stimulus_64b66b_async.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_wrapper.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_prbs_any.v
-  C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_top.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_bit_sync.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_checking_64b66b_async.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_gtwiz_userclk_rx.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_gtwiz_userclk_tx.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_init.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_reset_sync.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_stimulus_64b66b_async.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_wrapper.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_prbs_any.v
+  /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/imports/imports/gtwizard_ultrascale_0_example_top.v
 }
-read_ip -quiet c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
-set_property used_in_implementation false [get_files -all c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
+read_ip -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc]
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
 
-read_ip -quiet C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/gtwizard_ultrascale_0/gtwizard_ultrascale_0.xci
-set_property used_in_implementation false [get_files -all c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/gtwizard_ultrascale_0/synth/gtwizard_ultrascale_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/gtwizard_ultrascale_0/synth/gtwizard_ultrascale_0.xdc]
+read_ip -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/gtwizard_ultrascale_0/gtwizard_ultrascale_0.xci
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/gtwizard_ultrascale_0/synth/gtwizard_ultrascale_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/gtwizard_ultrascale_0/synth/gtwizard_ultrascale_0.xdc]
 
-read_ip -quiet c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/vio_0/vio_0.xci
-set_property used_in_implementation false [get_files -all c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/vio_0/vio_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/vio_0/vio_0_ooc.xdc]
+read_ip -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/vio_0/vio_0.xci
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/vio_0/vio_0.xdc]
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/vio_0/vio_0_ooc.xdc]
+
+read_ip -quiet /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/ila_xcvr_data/ila_xcvr_data.xci
+set_property used_in_synthesis false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/ila_xcvr_data/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/ila_xcvr_data/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/ila_xcvr_data/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/sources_1/ip/ila_xcvr_data/ila_xcvr_data_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -127,8 +130,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/constrs_1/imports/imports/gtwizard_ultrascale_0_example_top.xdc
-set_property used_in_implementation false [get_files C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/constrs_1/imports/imports/gtwizard_ultrascale_0_example_top.xdc]
+read_xdc /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/constrs_1/imports/imports/gtwizard_ultrascale_0_example_top.xdc
+set_property used_in_implementation false [get_files /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.srcs/constrs_1/imports/imports/gtwizard_ultrascale_0_example_top.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

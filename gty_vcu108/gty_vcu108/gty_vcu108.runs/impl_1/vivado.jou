@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
 # Vivado v2020.1.1 (64-bit)
-# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
 # IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
-# Start of session at: Sun Oct 18 22:44:55 2020
-# Process ID: 3252
-# Current directory: C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/impl_1
-# Command line: vivado.exe -log gtwizard_ultrascale_0_example_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gtwizard_ultrascale_0_example_top.tcl -notrace
-# Log file: C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/impl_1/gtwizard_ultrascale_0_example_top.vdi
-# Journal file: C:/Users/curlywei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/impl_1\vivado.jou
+# Start of session at: Mon Nov 30 10:06:00 2020
+# Process ID: 3680
+# Current directory: /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/impl_1
+# Command line: vivado -log gtwizard_ultrascale_0_example_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gtwizard_ultrascale_0_example_top.tcl -notrace
+# Log file: /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/impl_1/gtwizard_ultrascale_0_example_top.vdi
+# Journal file: /home/dewei/Documents/vcu108/gty_vcu108/gty_vcu108/gty_vcu108.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
 source gtwizard_ultrascale_0_example_top.tcl -notrace
