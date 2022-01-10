@@ -1,73 +1,86 @@
 #-----------------------------------------------------------
-# Vivado v2019.2.1 (64-bit)
-# SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
-# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
-# Start of session at: Fri Jul 31 11:13:52 2020
-# Process ID: 204559
-# Current directory: /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex
-# Command line: vivado -notrace -source /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_ex.tcl
-# Log file: /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/vivado.log
-# Journal file: /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/vivado.jou
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jan 10 13:43:07 2022
+# Process ID: 7955
+# Current directory: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex
+# Command line: vivado -notrace -source /home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_ex.tcl
+# Log file: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/vivado.log
+# Journal file: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/vivado.jou
 #-----------------------------------------------------------
 start_gui
-source /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_ex.tcl -notrace
+source /home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_ex.tcl -notrace
 INFO: [open_example_project] Creating new example project...
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.2/data/ip'.
-create_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:07 . Memory (MB): peak = 6592.008 ; gain = 193.070 ; free physical = 7906 ; free virtual = 23178
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.1/data/ip'.
 INFO: [open_example_project] Importing original IP ...
 INFO: [open_example_project] Generating the example project IP ...
+INFO: [IP_Flow 19-1706] Not generating 'Instantiation Template' target for IP 'ibert_ultrascale_gty_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'ibert_ultrascale_gty_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'ibert_ultrascale_gty_0'. Target already exists and is up to date.
 INFO: [open_example_project] Adding example synthesis HDL files ...
 INFO: [open_example_project] Adding example synthesis miscellaneous files ...
 INFO: [open_example_project] Adding example XDC files ...
 INFO: [open_example_project] Sourcing example extension scripts ...
+INFO: [open_example_project] Sourcing extension script: tcl/ibert_ultrascale_gty_example_script.tcl
 INFO: [open_example_project] Rebuilding all the top level IPs ...
-WARNING: [Vivado 12-4154] User modified property 'UserDisabled' (with value '1') was detected on '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.srcs/sources_1/ip/ibert_ultrascale_gty_0/data/mb_bootloop_le.elf'.
-WARNING: [Vivado 12-4154] User modified property 'UserDisabled' (with value '1') was detected on '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.srcs/sources_1/ip/ibert_ultrascale_gty_0/data/mb_bootloop_le.elf'.
+WARNING: [Vivado 12-4154] User modified property 'UserDisabled' (with value '1') was detected on '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.gen/sources_1/ip/ibert_ultrascale_gty_0/data/mb_bootloop_le.elf'.
+WARNING: [Vivado 12-4154] User modified property 'UserDisabled' (with value '1') was detected on '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.gen/sources_1/ip/ibert_ultrascale_gty_0/mb_bootloop_le.elf'.
 WARNING: [Vivado 12-4152] One or more user modified properties were detected. The reset_target command can be used to reset the targets data which will also reset all target properties.
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2021.1/tps/boost_1_72_0'
 INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (Xilinx Vivado Simulator)...
-INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xsim/ibert_ultrascale_gty_0.sh'
-INFO: [SIM-utils-43] Exported '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xsim/quad_pblock.tcl'
+INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xsim/ibert_ultrascale_gty_0.sh'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xsim/quad_pblock.tcl'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xsim/ibert_ultrascale_gty_v1_3_ibert_ultrascale_gty.txt'
 WARNING: [Memdata 28-176] There are no bmm files or elf files. Therefore Vivado could not produce any .mem files. Check the design for the existence of processors and associated elf files.
 INFO: [exportsim-Tcl-35] Exporting simulation files for "MODELSIM" (Mentor Graphics ModelSim Simulator)...
-INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/modelsim/ibert_ultrascale_gty_0.sh'
-INFO: [SIM-utils-43] Exported '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/modelsim/quad_pblock.tcl'
+INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/modelsim/ibert_ultrascale_gty_0.sh'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/modelsim/quad_pblock.tcl'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/modelsim/ibert_ultrascale_gty_v1_3_ibert_ultrascale_gty.txt'
 INFO: [exportsim-Tcl-35] Exporting simulation files for "QUESTA" (Mentor Graphics Questa Advanced Simulator)...
-INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/questa/ibert_ultrascale_gty_0.sh'
-INFO: [SIM-utils-43] Exported '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/questa/quad_pblock.tcl'
+INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/questa/ibert_ultrascale_gty_0.sh'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/questa/quad_pblock.tcl'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/questa/ibert_ultrascale_gty_v1_3_ibert_ultrascale_gty.txt'
 INFO: [exportsim-Tcl-35] Exporting simulation files for "IES" (Cadence Incisive Enterprise Simulator)...
-INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/ies/ibert_ultrascale_gty_0.sh'
-INFO: [SIM-utils-43] Exported '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/ies/quad_pblock.tcl'
-INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)...
-INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/vcs/ibert_ultrascale_gty_0.sh'
-INFO: [SIM-utils-43] Exported '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/vcs/quad_pblock.tcl'
-INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)...
-INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/riviera/ibert_ultrascale_gty_0.sh'
-INFO: [SIM-utils-43] Exported '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/riviera/quad_pblock.tcl'
-INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)...
-INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/activehdl/ibert_ultrascale_gty_0.sh'
-INFO: [SIM-utils-43] Exported '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/activehdl/quad_pblock.tcl'
+INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/ies/ibert_ultrascale_gty_0.sh'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/ies/quad_pblock.tcl'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/ies/ibert_ultrascale_gty_v1_3_ibert_ultrascale_gty.txt'
 INFO: [exportsim-Tcl-35] Exporting simulation files for "XCELIUM" (Cadence Xcelium Parallel Simulator)...
-INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xcelium/ibert_ultrascale_gty_0.sh'
-INFO: [SIM-utils-43] Exported '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xcelium/quad_pblock.tcl'
+INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xcelium/ibert_ultrascale_gty_0.sh'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xcelium/quad_pblock.tcl'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/xcelium/ibert_ultrascale_gty_v1_3_ibert_ultrascale_gty.txt'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)...
+INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/vcs/ibert_ultrascale_gty_0.sh'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/vcs/quad_pblock.tcl'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/vcs/ibert_ultrascale_gty_v1_3_ibert_ultrascale_gty.txt'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)...
+INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/riviera/ibert_ultrascale_gty_0.sh'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/riviera/quad_pblock.tcl'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/riviera/ibert_ultrascale_gty_v1_3_ibert_ultrascale_gty.txt'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)...
+INFO: [exportsim-Tcl-29] Script generated: '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/activehdl/ibert_ultrascale_gty_0.sh'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/activehdl/quad_pblock.tcl'
+INFO: [SIM-utils-43] Exported '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.ip_user_files/sim_scripts/ibert_ultrascale_gty_0/activehdl/ibert_ultrascale_gty_v1_3_ibert_ultrascale_gty.txt'
 INFO: [open_example_project] Open Example Project completed
 update_compile_order -fileset sources_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.srcs/sources_1/ip/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0.xci' is already up-to-date
-[Fri Jul 31 11:14:37 2020] Launched synth_1...
-Run output will be captured here: /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/synth_1/runme.log
-[Fri Jul 31 11:14:37 2020] Launched impl_1...
-Run output will be captured here: /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/runme.log
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+launch_runs impl_1 -to_step write_bitstream -jobs 24
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.srcs/sources_1/ip/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0.xci' is already up-to-date
+[Mon Jan 10 13:44:05 2022] Launched synth_1...
+Run output will be captured here: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/synth_1/runme.log
+[Mon Jan 10 13:44:05 2022] Launched impl_1...
+Run output will be captured here: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/runme.log
 open_hw_manager
 connect_hw_server -allow_non_jtag
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
 INFO: [Labtools 27-2222] Launching hw_server...
 INFO: [Labtools 27-2221] Launch Output:
 
-****** Xilinx hw_server v2019.2.1
-  **** Build date : Dec  5 2019 at 05:22:19
-    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:11:57
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 
 
 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
@@ -75,46 +88,51 @@ INFO: [Labtools 27-3417] Launching cs_server...
 INFO: [Labtools 27-2221] Launch Output:
 
 
-****** Xilinx cs_server v2019.2.0
-  **** Build date : Nov 07 2019-13:41:48
-    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 27 2021-01:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
 
 
 
 open_hw_target
 INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A1242B
-set_property PROGRAM.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.bit} [get_hw_devices xcvu095_0]
-set_property PROBES.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
-set_property FULL_PROBES.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
+set_property PROGRAM.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.bit} [get_hw_devices xcvu095_0]
+set_property PROBES.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
+set_property FULL_PROBES.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
 current_hw_device [get_hw_devices xcvu095_0]
 refresh_hw_device [lindex [get_hw_devices xcvu095_0] 0]
 INFO: [Labtools 27-1435] Device xcvu095 (JTAG device index = 0) is not programmed (DONE status = 0).
-set_property PROBES.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
-set_property FULL_PROBES.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
-set_property PROGRAM.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.bit} [get_hw_devices xcvu095_0]
+set_property PROBES.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
+set_property FULL_PROBES.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
+set_property PROGRAM.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.bit} [get_hw_devices xcvu095_0]
 program_hw_devices [get_hw_devices xcvu095_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
-program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 7785.387 ; gain = 12.406 ; free physical = 6851 ; free virtual = 22260
+program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 8642.105 ; gain = 0.000 ; free physical = 116678 ; free virtual = 120684
 refresh_hw_device [lindex [get_hw_devices xcvu095_0] 0]
 INFO: [Labtools 27-2302] Device xcvu095 (JTAG device index = 0) is programmed with a design that has 1 IBERT core(s).
 set xil_newLinks [list]
-set xil_newLink [create_hw_sio_link -description {Link 0} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y4/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y4/RX] 0] ]
+set xil_newLink [create_hw_sio_link -description {Link 0} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y12/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y12/RX] 0] ]
 lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 1} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y5/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y5/RX] 0] ]
+set xil_newLink [create_hw_sio_link -description {Link 1} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y13/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y13/RX] 0] ]
 lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 2} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y6/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y6/RX] 0] ]
+set xil_newLink [create_hw_sio_link -description {Link 2} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y14/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y14/RX] 0] ]
 lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 3} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y7/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y7/RX] 0] ]
-lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 4} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y12/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y12/RX] 0] ]
-lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 5} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y13/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y13/RX] 0] ]
-lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 6} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y14/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y14/RX] 0] ]
-lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 7} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y15/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y15/RX] 0] ]
+set xil_newLink [create_hw_sio_link -description {Link 3} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y15/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y15/RX] 0] ]
 lappend xil_newLinks $xil_newLink
 set xil_newLinkGroup [create_hw_sio_linkgroup -description {Link Group 0} [get_hw_sio_links $xil_newLinks]]
 unset xil_newLinks
+set_property LOGIC.TX_RESET_DATAPATH 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.TX_RESET_DATAPATH 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.RX_RESET_DATAPATH 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.RX_RESET_DATAPATH 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Jul 31 11:32:52 2020...
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 10 14:01:26 2022...

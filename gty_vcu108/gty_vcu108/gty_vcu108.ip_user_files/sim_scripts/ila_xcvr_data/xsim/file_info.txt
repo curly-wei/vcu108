@@ -1,2 +1,0 @@
-ila_xcvr_data.vhd,vhdl,xil_defaultlib,../../../../gty_vcu108.srcs/sources_1/ip/ila_xcvr_data/sim/ila_xcvr_data.vhd,incdir="../../../../gty_vcu108.srcs/sources_1/ip/ila_xcvr_data/hdl/verilog"
-glbl.v,Verilog,xil_defaultlib,glbl.v

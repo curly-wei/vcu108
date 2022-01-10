@@ -1,0 +1,2 @@
+ibert_ultrascale_gty_0_sim_netlist.v,verilog,xil_defaultlib,/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_sim_netlist.v,incdir="../../../../project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/verilog"incdir="../../../../project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth"
+glbl.v,Verilog,xil_defaultlib,glbl.v

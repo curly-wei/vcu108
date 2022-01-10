@@ -1,48 +1,52 @@
 #-----------------------------------------------------------
-# Vivado v2019.2.1 (64-bit)
-# SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
-# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
-# Start of session at: Fri Jul 31 11:13:52 2020
-# Process ID: 204559
-# Current directory: /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex
-# Command line: vivado -notrace -source /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_ex.tcl
-# Log file: /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/vivado.log
-# Journal file: /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/vivado.jou
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jan 10 13:43:07 2022
+# Process ID: 7955
+# Current directory: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex
+# Command line: vivado -notrace -source /home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_ex.tcl
+# Log file: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/vivado.log
+# Journal file: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/vivado.jou
 #-----------------------------------------------------------
 start_gui
-source /home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_ex.tcl -notrace
+source /home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/ibert_ultrascale_gty_0_ex.tcl -notrace
 update_compile_order -fileset sources_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
+launch_runs impl_1 -to_step write_bitstream -jobs 24
 wait_on_run impl_1
 open_hw_manager
 connect_hw_server -allow_non_jtag
 open_hw_target
-set_property PROGRAM.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.bit} [get_hw_devices xcvu095_0]
-set_property PROBES.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
-set_property FULL_PROBES.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
+set_property PROGRAM.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.bit} [get_hw_devices xcvu095_0]
+set_property PROBES.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
+set_property FULL_PROBES.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
 current_hw_device [get_hw_devices xcvu095_0]
 refresh_hw_device [lindex [get_hw_devices xcvu095_0] 0]
-set_property PROBES.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
-set_property FULL_PROBES.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
-set_property PROGRAM.FILE {/home/dewei/Documents/VCU108_ibert/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.bit} [get_hw_devices xcvu095_0]
+set_property PROBES.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
+set_property FULL_PROBES.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.ltx} [get_hw_devices xcvu095_0]
+set_property PROGRAM.FILE {/home/dewei/Documents/vcu108/ibert_GTY_qsfp/ibert_ultrascale_gty_0_ex/ibert_ultrascale_gty_0_ex.runs/impl_1/example_ibert_ultrascale_gty_0.bit} [get_hw_devices xcvu095_0]
 program_hw_devices [get_hw_devices xcvu095_0]
 refresh_hw_device [lindex [get_hw_devices xcvu095_0] 0]
 set xil_newLinks [list]
-set xil_newLink [create_hw_sio_link -description {Link 0} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y4/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y4/RX] 0] ]
+set xil_newLink [create_hw_sio_link -description {Link 0} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y12/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y12/RX] 0] ]
 lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 1} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y5/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y5/RX] 0] ]
+set xil_newLink [create_hw_sio_link -description {Link 1} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y13/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y13/RX] 0] ]
 lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 2} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y6/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y6/RX] 0] ]
+set xil_newLink [create_hw_sio_link -description {Link 2} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y14/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y14/RX] 0] ]
 lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 3} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y7/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_125/MGT_X0Y7/RX] 0] ]
-lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 4} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y12/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y12/RX] 0] ]
-lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 5} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y13/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y13/RX] 0] ]
-lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 6} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y14/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y14/RX] 0] ]
-lappend xil_newLinks $xil_newLink
-set xil_newLink [create_hw_sio_link -description {Link 7} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y15/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y15/RX] 0] ]
+set xil_newLink [create_hw_sio_link -description {Link 3} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y15/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A1242B/0_1_0_0/IBERT/Quad_127/MGT_X0Y15/RX] 0] ]
 lappend xil_newLinks $xil_newLink
 set xil_newLinkGroup [create_hw_sio_linkgroup -description {Link Group 0} [get_hw_sio_links $xil_newLinks]]
 unset xil_newLinks
+set_property LOGIC.TX_RESET_DATAPATH 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.TX_RESET_DATAPATH 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.RX_RESET_DATAPATH 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.RX_RESET_DATAPATH 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]
+commit_hw_sio -non_blocking [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {Link_Group_0}]]

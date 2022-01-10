@@ -1,4 +1,10 @@
 
+
+
+
+
+
+
 // file: ibert_ultrascale_gty_0.v
 //////////////////////////////////////////////////////////////////////////////
 //   ____  ____ 
@@ -17,15 +23,19 @@
 //////////////////////////////////////////////////////////////////////////////
 
 
-`define C_NUM_GTY_QUADS 2
-`define C_GTY_REFCLKS_USED 2
+
+
+
+`define C_NUM_GTY_QUADS 1
+`define C_GTY_TOTAL_CH 4
+`define C_GTY_REFCLKS_USED 1
 module example_ibert_ultrascale_gty_0
 (
   // GT top level ports
-  output [(4*`C_NUM_GTY_QUADS)-1:0]		gty_txn_o,
-  output [(4*`C_NUM_GTY_QUADS)-1:0]		gty_txp_o,
-  input  [(4*`C_NUM_GTY_QUADS)-1:0]    	gty_rxn_i,
-  input  [(4*`C_NUM_GTY_QUADS)-1:0]   	gty_rxp_i,
+  output [(`C_GTY_TOTAL_CH)-1:0]		gty_txn_o,
+  output [(`C_GTY_TOTAL_CH)-1:0]		gty_txp_o,
+  input  [(`C_GTY_TOTAL_CH)-1:0]    	gty_rxn_i,
+  input  [(`C_GTY_TOTAL_CH)-1:0]   	gty_rxp_i,
   input  [`C_GTY_REFCLKS_USED-1:0]      gty_refclk0p_i,
   input  [`C_GTY_REFCLKS_USED-1:0]      gty_refclk0n_i,
   input  [`C_GTY_REFCLKS_USED-1:0]      gty_refclk1p_i,
@@ -63,7 +73,14 @@ module example_ibert_ultrascale_gty_0
   // Refclk IBUFDS instantiations
   //
 
-    IBUFDS_GTE3 u_buf_q1_clk0
+
+
+
+
+
+
+ 
+    IBUFDS_GTE3 u_buf_q3_clk0
       (
         .O            (gty_refclk0_i[0]),
         .ODIV2        (gty_odiv2_0_i[0]),
@@ -72,7 +89,7 @@ module example_ibert_ultrascale_gty_0
         .IB           (gty_refclk0n_i[0])
       );
 
-    IBUFDS_GTE3 u_buf_q1_clk1
+    IBUFDS_GTE3 u_buf_q3_clk1
       (
         .O            (gty_refclk1_i[0]),
         .ODIV2        (gty_odiv2_1_i[0]),
@@ -81,28 +98,15 @@ module example_ibert_ultrascale_gty_0
         .IB           (gty_refclk1n_i[0])
       );
 
-    IBUFDS_GTE3 u_buf_q3_clk0
-      (
-        .O            (gty_refclk0_i[1]),
-        .ODIV2        (gty_odiv2_0_i[1]),
-        .CEB          (1'b0),
-        .I            (gty_refclk0p_i[1]),
-        .IB           (gty_refclk0n_i[1])
-      );
-
-    IBUFDS_GTE3 u_buf_q3_clk1
-      (
-        .O            (gty_refclk1_i[1]),
-        .ODIV2        (gty_odiv2_1_i[1]),
-        .CEB          (1'b0),
-        .I            (gty_refclk1p_i[1]),
-        .IB           (gty_refclk1n_i[1])
-      );
-
 
   //
   // Refclk connection from each IBUFDS to respective quads depending on the source selected in gui
   //
+
+
+
+
+
   assign gty_qrefclk0_i[0] = gty_refclk0_i[0];
   assign gty_qrefclk1_i[0] = gty_refclk1_i[0];
   assign gty_qnorthrefclk0_i[0] = 1'b0;
@@ -110,10 +114,10 @@ module example_ibert_ultrascale_gty_0
   assign gty_qsouthrefclk0_i[0] = 1'b0;
   assign gty_qsouthrefclk1_i[0] = 1'b0;
 //GTYE3_COMMON clock connection
-  assign gty_qrefclk00_i[0] = gty_refclk0_i[0];
-  assign gty_qrefclk10_i[0] = gty_refclk1_i[0];
-  assign gty_qrefclk01_i[0] = 1'b0;
-  assign gty_qrefclk11_i[0] = 1'b0;  
+  assign gty_qrefclk00_i[0] = 1'b0;
+  assign gty_qrefclk10_i[0] = 1'b0;
+  assign gty_qrefclk01_i[0] = gty_refclk0_i[0];
+  assign gty_qrefclk11_i[0] = gty_refclk1_i[0];  
   assign gty_qnorthrefclk00_i[0] = 1'b0;
   assign gty_qnorthrefclk10_i[0] = 1'b0;
   assign gty_qnorthrefclk01_i[0] = 1'b0;
@@ -121,33 +125,11 @@ module example_ibert_ultrascale_gty_0
   assign gty_qsouthrefclk00_i[0] = 1'b0;
   assign gty_qsouthrefclk10_i[0] = 1'b0;  
   assign gty_qsouthrefclk01_i[0] = 1'b0;
-  assign gty_qsouthrefclk11_i[0] = 1'b0; 
- 
-
-  assign gty_qrefclk0_i[1] = gty_refclk0_i[1];
-  assign gty_qrefclk1_i[1] = gty_refclk1_i[1];
-  assign gty_qnorthrefclk0_i[1] = 1'b0;
-  assign gty_qnorthrefclk1_i[1] = 1'b0;
-  assign gty_qsouthrefclk0_i[1] = 1'b0;
-  assign gty_qsouthrefclk1_i[1] = 1'b0;
-//GTYE3_COMMON clock connection
-  assign gty_qrefclk00_i[1] = gty_refclk0_i[1];
-  assign gty_qrefclk10_i[1] = gty_refclk1_i[1];
-  assign gty_qrefclk01_i[1] = 1'b0;
-  assign gty_qrefclk11_i[1] = 1'b0;  
-  assign gty_qnorthrefclk00_i[1] = 1'b0;
-  assign gty_qnorthrefclk10_i[1] = 1'b0;
-  assign gty_qnorthrefclk01_i[1] = 1'b0;
-  assign gty_qnorthrefclk11_i[1] = 1'b0;  
-  assign gty_qsouthrefclk00_i[1] = 1'b0;
-  assign gty_qsouthrefclk10_i[1] = 1'b0;  
-  assign gty_qsouthrefclk01_i[1] = 1'b0;
-  assign gty_qsouthrefclk11_i[1] = 1'b0; 
- 
+  assign gty_qsouthrefclk11_i[0] = 1'b0;
 
     BUFG_GT u_gty_sysclk_internal
       (
-        .I        (gty_odiv2_0_i[1]),
+        .I        (gty_odiv2_0_i[0]),
         .O        (gty_sysclk_i),
         .CE       (1'b1),
         .CEMASK   (1'b0),

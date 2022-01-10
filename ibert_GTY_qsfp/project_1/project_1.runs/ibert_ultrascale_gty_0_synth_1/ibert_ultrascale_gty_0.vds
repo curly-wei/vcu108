@@ -1,0 +1,830 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jan 10 13:40:02 2022
+# Process ID: 7296
+# Current directory: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.runs/ibert_ultrascale_gty_0_synth_1
+# Command line: vivado -log ibert_ultrascale_gty_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ibert_ultrascale_gty_0.tcl
+# Log file: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.runs/ibert_ultrascale_gty_0_synth_1/ibert_ultrascale_gty_0.vds
+# Journal file: /home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.runs/ibert_ultrascale_gty_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ibert_ultrascale_gty_0.tcl -notrace
+Command: synth_design -top ibert_ultrascale_gty_0 -part xcvu095-ffva2104-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvu095'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu095'
+INFO: [Common 17-1540] The version limit for your license is '2021.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xcvu095-ffva2104-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7354
+WARNING: [Synth 8-2292] literal value truncated to fit in 1 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:1631]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:1645]
+WARNING: [Synth 8-2292] literal value truncated to fit in 1 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:1646]
+WARNING: [Synth 8-2292] literal value truncated to fit in 1 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:1647]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:1648]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:1653]
+WARNING: [Synth 8-2292] literal value truncated to fit in 1 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:1679]
+WARNING: [Synth 8-2292] literal value truncated to fit in 2 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:10802]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:10816]
+WARNING: [Synth 8-2292] literal value truncated to fit in 6 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:10821]
+WARNING: [Synth 8-2292] literal value truncated to fit in 2 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:10842]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/ibert_ultrascale_gty_v1_3_syn_rfs.v:10858]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2631.215 ; gain = 70.688 ; free physical = 120213 ; free virtual = 123466
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ibert_ultrascale_gty_0' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:67]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_10_gtwiz_reset' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v:55]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_10_reset_synchronizer' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_reset_sync.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_10_reset_synchronizer' (7#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_reset_sync.v:55]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_10_bit_synchronizer' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_bit_sync.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_10_bit_synchronizer' (8#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_bit_sync.v:55]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v:164]
+INFO: [Synth 8-6157] synthesizing module 'gtwizard_ultrascale_v1_7_10_reset_inv_synchronizer' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_10_reset_inv_synchronizer' (9#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'gtwizard_ultrascale_v1_7_10_gtwiz_reset' (10#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v:55]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (57#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (60#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27837]
+INFO: [Synth 8-6157] synthesizing module 'FDSE' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27973]
+INFO: [Synth 8-6155] done synthesizing module 'FDSE' (61#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27973]
+INFO: [Synth 8-6157] synthesizing module 'GTYE3_CHANNEL' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:37894]
+INFO: [Synth 8-6155] done synthesizing module 'GTYE3_CHANNEL' (62#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:37894]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_v10_v3_0/hdl/vhdl/lmb_v10.vhd:140]
+INFO: [Synth 8-3491] module 'FDS' declared at '/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960' bound to instance 'POR_FF_I' of component 'FDS' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_v10_v3_0/hdl/vhdl/lmb_v10.vhd:169]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (110#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10' (111#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_v10_v3_0/hdl/vhdl/lmb_v10.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10__parameterized1' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_v10_v3_0/hdl/vhdl/lmb_v10.vhd:140]
+INFO: [Synth 8-3491] module 'FDS' declared at '/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:27960' bound to instance 'POR_FF_I' of component 'FDS' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_v10_v3_0/hdl/vhdl/lmb_v10.vhd:169]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10__parameterized1' (111#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_v10_v3_0/hdl/vhdl/lmb_v10.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_bram_if_cntlr.vhd:215]
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_mux' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_mux.vhd:88' bound to instance 'lmb_mux_I' of component 'lmb_mux' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_bram_if_cntlr.vhd:427]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_mux.vhd:170]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/pselect_mask.vhd:87' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_mux.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr_v4_0_pselect_mask' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/pselect_mask.vhd:102]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr_v4_0_pselect_mask' (112#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/pselect_mask.vhd:102]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (113#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_mux.vhd:170]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (114#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_bram_if_cntlr.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr__parameterized1' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_bram_if_cntlr.vhd:215]
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_mux' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_mux.vhd:88' bound to instance 'lmb_mux_I' of component 'lmb_mux' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_bram_if_cntlr.vhd:427]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr__parameterized1' (114#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/lmb_bram_if_cntlr_v4_0/hdl/vhdl/lmb_bram_if_cntlr.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'iomodule' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule.vhd:286]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pselect_mask.vhd:87' bound to instance 'pselect_mask_reg' of component 'pselect_mask' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule.vhd:597]
+INFO: [Synth 8-638] synthesizing module 'iomodule_v3_0_pselect_mask' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pselect_mask.vhd:102]
+INFO: [Synth 8-256] done synthesizing module 'iomodule_v3_0_pselect_mask' (117#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pselect_mask.vhd:102]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pselect_mask.vhd:87' bound to instance 'pselect_mask_io' of component 'pselect_mask' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule.vhd:628]
+INFO: [Synth 8-638] synthesizing module 'iomodule_v3_0_pselect_mask__parameterized0' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pselect_mask.vhd:102]
+INFO: [Synth 8-256] done synthesizing module 'iomodule_v3_0_pselect_mask__parameterized0' (117#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pselect_mask.vhd:102]
+	Parameter C_FREQ bound to: 100000000 - type: integer 
+	Parameter C_USE_CONFIG_RESET bound to: 0 - type: integer 
+	Parameter C_AVOID_PRIMITIVES bound to: 0 - type: integer 
+	Parameter C_USE_UART_RX bound to: 0 - type: integer 
+	Parameter C_USE_UART_TX bound to: 0 - type: integer 
+	Parameter C_UART_BAUDRATE bound to: 9600 - type: integer 
+	Parameter C_UART_DATA_BITS bound to: 8 - type: integer 
+	Parameter C_UART_USE_PARITY bound to: 0 - type: integer 
+	Parameter C_UART_ODD_PARITY bound to: 0 - type: integer 
+	Parameter C_UART_RX_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_TX_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_ERROR_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_UART_PROG_BAUDRATE bound to: 0 - type: integer 
+	Parameter C_USE_FIT1 bound to: 0 - type: integer 
+	Parameter C_FIT1_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT2 bound to: 0 - type: integer 
+	Parameter C_FIT2_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT3 bound to: 0 - type: integer 
+	Parameter C_FIT3_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_FIT4 bound to: 0 - type: integer 
+	Parameter C_FIT4_No_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_FIT4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT1 bound to: 0 - type: integer 
+	Parameter C_PIT1_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT1_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT1_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT2 bound to: 0 - type: integer 
+	Parameter C_PIT2_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT2_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT2_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT3 bound to: 0 - type: integer 
+	Parameter C_PIT3_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT3_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT3_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_PIT4 bound to: 0 - type: integer 
+	Parameter C_PIT4_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT4_READABLE bound to: 1 - type: integer 
+	Parameter C_PIT4_PRESCALER bound to: 0 - type: integer 
+	Parameter C_PIT4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPO1 bound to: 0 - type: integer 
+	Parameter C_GPO1_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO1_INIT bound to: 0 - type: integer 
+	Parameter C_USE_GPO2 bound to: 0 - type: integer 
+	Parameter C_GPO2_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO2_INIT bound to: 0 - type: integer 
+	Parameter C_USE_GPO3 bound to: 0 - type: integer 
+	Parameter C_GPO3_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO3_INIT bound to: 0 - type: integer 
+	Parameter C_USE_GPO4 bound to: 0 - type: integer 
+	Parameter C_GPO4_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO4_INIT bound to: 0 - type: integer 
+	Parameter C_USE_GPI1 bound to: 0 - type: integer 
+	Parameter C_GPI1_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI1_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI2 bound to: 0 - type: integer 
+	Parameter C_GPI2_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI2_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI3 bound to: 0 - type: integer 
+	Parameter C_GPI3_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI3_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_USE_GPI4 bound to: 0 - type: integer 
+	Parameter C_GPI4_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI4_INTERRUPT bound to: 0 - type: integer 
+	Parameter C_INTC_USE_EXT_INTR bound to: 0 - type: integer 
+	Parameter C_INTC_INTR_SIZE bound to: 1 - type: integer 
+	Parameter C_INTC_LEVEL_EDGE bound to: 16'b0000000000000000 
+	Parameter C_INTC_POSITIVE bound to: 16'b1111111111111111 
+	Parameter C_INTC_HAS_FAST bound to: 1 - type: integer 
+	Parameter C_INTC_ADDR_WIDTH bound to: 16 - type: integer 
+	Parameter C_INTC_BASE_VECTORS bound to: 0 - type: integer 
+	Parameter C_INTC_ASYNC_INTR bound to: 16'b1111111111111111 
+	Parameter C_INTC_NUM_SYNC_FF bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'Iomodule_core' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:92' bound to instance 'IOModule_Core_I1' of component 'iomodule_core' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule.vhd:760]
+INFO: [Synth 8-638] synthesizing module 'Iomodule_core' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:284]
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_USE_FIT bound to: 0 - type: integer 
+	Parameter C_NO_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_INACCURACY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'FIT_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/fit_module.vhd:90' bound to instance 'FIT_I1' of component 'FIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:729]
+INFO: [Synth 8-638] synthesizing module 'FIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/fit_module.vhd:112]
+INFO: [Synth 8-256] done synthesizing module 'FIT_Module' (118#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/fit_module.vhd:112]
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_USE_FIT bound to: 0 - type: integer 
+	Parameter C_NO_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_INACCURACY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'FIT_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/fit_module.vhd:90' bound to instance 'FIT_I2' of component 'FIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:744]
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_USE_FIT bound to: 0 - type: integer 
+	Parameter C_NO_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_INACCURACY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'FIT_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/fit_module.vhd:90' bound to instance 'FIT_I3' of component 'FIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:759]
+	Parameter C_USE_SRL16 bound to: yes - type: string 
+	Parameter C_USE_FIT bound to: 0 - type: integer 
+	Parameter C_NO_CLOCKS bound to: 6216 - type: integer 
+	Parameter C_INACCURACY bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'FIT_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/fit_module.vhd:90' bound to instance 'FIT_I4' of component 'FIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:774]
+	Parameter C_USE_PIT bound to: 0 - type: integer 
+	Parameter C_PIT_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT_READABLE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'PIT_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pit_module.vhd:89' bound to instance 'PIT_I1' of component 'PIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:804]
+INFO: [Synth 8-638] synthesizing module 'PIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pit_module.vhd:111]
+INFO: [Synth 8-256] done synthesizing module 'PIT_Module' (119#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pit_module.vhd:111]
+	Parameter C_USE_PIT bound to: 0 - type: integer 
+	Parameter C_PIT_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT_READABLE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'PIT_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pit_module.vhd:89' bound to instance 'PIT_I2' of component 'PIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:834]
+	Parameter C_USE_PIT bound to: 0 - type: integer 
+	Parameter C_PIT_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT_READABLE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'PIT_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pit_module.vhd:89' bound to instance 'PIT_I3' of component 'PIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:864]
+	Parameter C_USE_PIT bound to: 0 - type: integer 
+	Parameter C_PIT_SIZE bound to: 32 - type: integer 
+	Parameter C_PIT_READABLE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'PIT_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/pit_module.vhd:89' bound to instance 'PIT_I4' of component 'PIT_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:894]
+	Parameter C_USE_GPO bound to: 0 - type: integer 
+	Parameter C_GPO_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO_INIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPO_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpo_module.vhd:89' bound to instance 'GPO_I1' of component 'GPO_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:913]
+INFO: [Synth 8-638] synthesizing module 'GPO_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpo_module.vhd:103]
+INFO: [Synth 8-256] done synthesizing module 'GPO_Module' (120#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpo_module.vhd:103]
+	Parameter C_USE_GPO bound to: 0 - type: integer 
+	Parameter C_GPO_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO_INIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPO_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpo_module.vhd:89' bound to instance 'GPO_I2' of component 'GPO_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:925]
+	Parameter C_USE_GPO bound to: 0 - type: integer 
+	Parameter C_GPO_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO_INIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPO_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpo_module.vhd:89' bound to instance 'GPO_I3' of component 'GPO_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:937]
+	Parameter C_USE_GPO bound to: 0 - type: integer 
+	Parameter C_GPO_SIZE bound to: 32 - type: integer 
+	Parameter C_GPO_INIT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPO_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpo_module.vhd:89' bound to instance 'GPO_I4' of component 'GPO_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:949]
+	Parameter C_USE_GPI bound to: 0 - type: integer 
+	Parameter C_GPI_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI_INTERRUPT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPI_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpi_module.vhd:90' bound to instance 'GPI_I1' of component 'GPI_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:964]
+INFO: [Synth 8-638] synthesizing module 'GPI_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpi_module.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'GPI_Module' (121#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpi_module.vhd:105]
+	Parameter C_USE_GPI bound to: 0 - type: integer 
+	Parameter C_GPI_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI_INTERRUPT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPI_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpi_module.vhd:90' bound to instance 'GPI_I2' of component 'GPI_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:979]
+	Parameter C_USE_GPI bound to: 0 - type: integer 
+	Parameter C_GPI_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI_INTERRUPT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPI_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpi_module.vhd:90' bound to instance 'GPI_I3' of component 'GPI_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:994]
+	Parameter C_USE_GPI bound to: 0 - type: integer 
+	Parameter C_GPI_SIZE bound to: 32 - type: integer 
+	Parameter C_GPI_INTERRUPT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'GPI_Module' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/gpi_module.vhd:90' bound to instance 'GPI_I4' of component 'GPI_Module' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:1009]
+	Parameter C_INTC_ENABLED bound to: 0 - type: integer 
+	Parameter C_INTC_LEVEL_EDGE bound to: 32'b00000000000000001111111111111111 
+	Parameter C_INTC_POSITIVE bound to: 32'b11111111111111111111111111111111 
+	Parameter C_INTC_ASYNC_INTR bound to: 32'b11111111111111110000000000000000 
+	Parameter C_INTC_HAS_FAST bound to: 1 - type: integer 
+	Parameter C_INTC_ADDR_WIDTH bound to: 16 - type: integer 
+	Parameter C_INTC_NUM_SYNC_FF bound to: 2 - type: integer 
+	Parameter C_INTC_BASE_VECTORS bound to: 0 - type: integer 
+	Parameter C_USE_LUTRAM bound to: yes - type: string 
+INFO: [Synth 8-3491] module 'intr_ctrl' declared at '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:91' bound to instance 'intr_ctrl_I1' of component 'intr_ctrl' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:1050]
+INFO: [Synth 8-638] synthesizing module 'intr_ctrl' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:126]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-113] binding component instance 'fdr_i' to cell 'FDR' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:481]
+INFO: [Synth 8-256] done synthesizing module 'intr_ctrl' (122#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/intr_ctrl.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'Iomodule_core' (123#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule_core.vhd:284]
+INFO: [Synth 8-256] done synthesizing module 'iomodule' (124#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/pcores/iomodule_v3_0/hdl/vhdl/iomodule.vhd:286]
+INFO: [Synth 8-6157] synthesizing module 'BUFG_GT' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1259]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG_GT' (127#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1259]
+INFO: [Synth 8-6157] synthesizing module 'GTYE3_COMMON' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:39029]
+INFO: [Synth 8-6155] done synthesizing module 'GTYE3_COMMON' (130#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:39029]
+WARNING: [Synth 8-7071] port 'rxoutclk_o' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'txoutclk_o' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport5' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport6' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport7' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport8' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport9' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport10' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport11' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport12' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport13' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport14' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport15' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport16' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport17' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport18' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport19' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport20' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport21' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport22' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport23' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport24' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport25' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport26' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport27' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport28' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport29' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport30' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport31' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport32' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport33' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport34' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport35' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport36' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport37' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport38' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport39' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport40' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport41' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport42' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport43' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport44' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport45' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport46' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport47' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport48' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport49' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport50' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport51' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport52' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport53' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport54' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport55' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport56' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport57' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport58' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport59' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport60' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport61' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport62' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport63' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport64' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport65' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport66' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport67' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport68' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport69' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport70' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport71' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport72' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport73' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport74' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport75' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport76' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport77' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport78' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport79' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport80' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport81' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport82' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport83' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport84' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport85' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport86' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport87' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport88' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport89' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport90' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport91' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport92' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport93' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport94' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport95' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport96' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport97' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport98' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport99' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport100' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport101' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+WARNING: [Synth 8-7071] port 'sl_oport102' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' is unconnected for instance 'inst' [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+INFO: [Common 17-14] Message 'Synth 8-7071' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7023] instance 'inst' of module 'ibert_ultrascale_gty_v1_3_6_ibert_ultrascale_gty' has 411 connections declared, but only 33 given [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:1239]
+INFO: [Synth 8-6155] done synthesizing module 'ibert_ultrascale_gty_0' (134#1) [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.v:67]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2952.059 ; gain = 391.531 ; free physical = 120161 ; free virtual = 123424
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2957.996 ; gain = 397.469 ; free physical = 120193 ; free virtual = 123457
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2957.996 ; gain = 397.469 ; free physical = 120193 ; free virtual = 123457
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.43 ; elapsed = 00:00:00.44 . Memory (MB): peak = 2957.996 ; gain = 0.000 ; free physical = 120144 ; free virtual = 123408
+INFO: [Netlist 29-17] Analyzing 452 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/ibert_ultrascale_gty_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ibert_ultrascale_gty_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ibert_ultrascale_gty_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/sw_mcs_all.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/sw_mcs_all.xdc] for cell 'inst'
+Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/attributes.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/attributes.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.gen/sources_1/ip/ibert_ultrascale_gty_0/synth/attributes.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ibert_ultrascale_gty_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ibert_ultrascale_gty_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.runs/ibert_ultrascale_gty_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.runs/ibert_ultrascale_gty_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3091.441 ; gain = 0.000 ; free physical = 119993 ; free virtual = 123267
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 371 instances were transformed.
+  BUFG => BUFGCE: 4 instances
+  DSP48E => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 8 instances
+  FD => FDRE: 32 instances
+  FDE => FDRE: 46 instances
+  FDR => FDRE: 33 instances
+  FDRSE => FDRSE (FDRE, LUT4, VCC): 5 instances
+  FDS => FDSE: 5 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 81 instances
+  MULT_AND => LUT2: 3 instances
+  MUXCY_L => MUXCY: 74 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+  RAMB36E1 => RAMB36E2: 16 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.63 ; elapsed = 00:00:00.57 . Memory (MB): peak = 3091.441 ; gain = 0.000 ; free physical = 119981 ; free virtual = 123257
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 120163 ; free virtual = 123439
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvu095-ffva2104-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 120163 ; free virtual = 123439
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.runs/ibert_ultrascale_gty_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 120160 ; free virtual = 123437
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_all_reg' in module 'gtwizard_ultrascale_v1_7_10_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_tx_reg' in module 'gtwizard_ultrascale_v1_7_10_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'sm_reset_rx_reg' in module 'gtwizard_ultrascale_v1_7_10_gtwiz_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ibert_lib_v1_0_7_rxcdr_reset'
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gty_v1_3_6_gtye3_channel_regs:/myram_reg"
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+      ST_RESET_TX_BRANCH |                              000 |                              000
+         ST_RESET_TX_PLL |                              001 |                              001
+    ST_RESET_TX_DATAPATH |                              010 |                              010
+   ST_RESET_TX_WAIT_LOCK |                              011 |                              011
+ST_RESET_TX_WAIT_USERRDY |                              100 |                              100
+ST_RESET_TX_WAIT_RESETDONE |                              101 |                              101
+        ST_RESET_TX_IDLE |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_tx_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_10_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+      ST_RESET_RX_BRANCH |                              000 |                              000
+         ST_RESET_RX_PLL |                              001 |                              001
+    ST_RESET_RX_DATAPATH |                              010 |                              010
+   ST_RESET_RX_WAIT_LOCK |                              011 |                              011
+    ST_RESET_RX_WAIT_CDR |                              100 |                              100
+ST_RESET_RX_WAIT_USERRDY |                              101 |                              101
+ST_RESET_RX_WAIT_RESETDONE |                              110 |                              110
+        ST_RESET_RX_IDLE |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_rx_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_10_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+     ST_RESET_ALL_BRANCH |                              000 |                              001
+     ST_RESET_ALL_TX_PLL |                              001 |                              010
+ST_RESET_ALL_TX_PLL_WAIT |                              010 |                              011
+      ST_RESET_ALL_RX_DP |                              011 |                              100
+     ST_RESET_ALL_RX_PLL |                              100 |                              101
+    ST_RESET_ALL_RX_WAIT |                              101 |                              110
+                  iSTATE |                              110 |                              111
+       ST_RESET_ALL_INIT |                              111 |                              000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sm_reset_all_reg' using encoding 'sequential' in module 'gtwizard_ultrascale_v1_7_10_gtwiz_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   READY |                               00 |                               00
+         ASSERT_CDRRESET |                               01 |                               01
+                    WAIT |                               10 |                               10
+        WAIT_RXRESETDONE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ibert_lib_v1_0_7_rxcdr_reset'
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gty_v1_3_6_gtye3_channel_regs__parameterized0:/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gty_v1_3_6_gtye3_channel_regs__parameterized1:/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "ibert_ultrascale_gty_v1_3_6_gtye3_channel_regs__parameterized2:/myram_reg"
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 120143 ; free virtual = 123427
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 768 (col length:192)
+BRAMs: 3456 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "inst/\QUAD0.u_q /\CH[2].u_ch /U_CHANNEL_REGS/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "inst/\QUAD0.u_q /\CH[3].u_ch /U_CHANNEL_REGS/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "inst/\QUAD0.u_q /i_5057_0/\CH[1].u_ch /U_CHANNEL_REGS/myram_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "inst/\QUAD0.u_q /i_5057_1/\CH[0].u_ch /U_CHANNEL_REGS/myram_reg"
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 120018 ; free virtual = 123342
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:05 ; elapsed = 00:01:07 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119789 ; free virtual = 123137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:05 ; elapsed = 00:01:08 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119782 ; free virtual = 123130
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD0.u_q/CH[2].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD0.u_q/CH[3].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD0.u_q/CH[1].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/QUAD0.u_q/CH[0].u_ch/U_CHANNEL_REGS/myram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:11 ; elapsed = 00:01:14 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119758 ; free virtual = 123106
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:gtrefclkmonitor_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxdfestadaptdone_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxqpisenn_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxqpisenp_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:txgearboxready_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:txqpisenn_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:txqpisenp_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphmonitor_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:rxphslipmonitor_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:pmascanout_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:scanout_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:mgt_errcnt_reset_stat_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_data_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dmon_trace_full_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_debug_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_fail_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:cpll_cal_done_i to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:den_usr_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:dwe_usr_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:daddr_usr_i[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:di_usr_i[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:di_usr_i[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:di_usr_i[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:di_usr_i[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin U_CHANNEL_REGS:di_usr_i[27] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:13 ; elapsed = 00:01:16 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119757 ; free virtual = 123106
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:13 ; elapsed = 00:01:16 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119757 ; free virtual = 123106
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:14 ; elapsed = 00:01:17 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119757 ; free virtual = 123106
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:14 ; elapsed = 00:01:17 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119757 ; free virtual = 123106
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119755 ; free virtual = 123103
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119755 ; free virtual = 123103
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |DSP48E        |         8|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |DSP48E_bbox   |     1|
+|2     |DSP48E_bbox_0 |     7|
+|9     |BUFG          |     4|
+|10    |BUFG_GT       |    16|
+|11    |CARRY8        |   154|
+|12    |GTYE3_CHANNEL |     4|
+|13    |GTYE3_COMMON  |     1|
+|14    |LUT1          |   516|
+|15    |LUT2          |  1946|
+|16    |LUT3          |  1510|
+|17    |LUT4          |  1985|
+|18    |LUT5          |  2778|
+|19    |LUT6          |  4160|
+|21    |MULT_AND      |     2|
+|22    |MUXCY_L       |    71|
+|23    |MUXF7         |   527|
+|24    |MUXF8         |    78|
+|25    |RAM32M16      |     4|
+|26    |RAM32X1D      |    72|
+|27    |RAMB36E1      |    16|
+|28    |RAMB36E2      |     4|
+|29    |SRL16E        |   370|
+|30    |XORCY         |    49|
+|31    |FDCE          |   336|
+|32    |FDE           |    32|
+|33    |FDPE          |   244|
+|34    |FDR           |     1|
+|35    |FDRE          | 17817|
+|36    |FDS           |     5|
+|37    |FDSE          |   262|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119755 ; free virtual = 123103
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1577 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:08 ; elapsed = 00:01:12 . Memory (MB): peak = 3091.441 ; gain = 397.469 ; free physical = 119772 ; free virtual = 123120
+Synthesis Optimization Complete : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 3091.441 ; gain = 530.914 ; free physical = 119772 ; free virtual = 123120
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.34 . Memory (MB): peak = 3091.441 ; gain = 0.000 ; free physical = 119833 ; free virtual = 123184
+INFO: [Netlist 29-17] Analyzing 1104 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD0.u_q/CH[0].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD0.u_q/u_common/u_clocking/rx_ind.u_rxusr0_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD0.u_q/CH[0].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD0.u_q/u_common/u_clocking/tx_ind.u_txusr0_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD0.u_q/CH[1].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD0.u_q/u_common/u_clocking/rx_ind.u_rxusr1_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD0.u_q/CH[1].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD0.u_q/u_common/u_clocking/tx_ind.u_txusr1_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD0.u_q/CH[2].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD0.u_q/u_common/u_clocking/rx_ind.u_rxusr2_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD0.u_q/CH[2].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD0.u_q/u_common/u_clocking/tx_ind.u_txusr2_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD0.u_q/CH[3].u_ch/BUFG_GT_SYNC for BUFG_GT inst/QUAD0.u_q/u_common/u_clocking/rx_ind.u_rxusr3_0
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/QUAD0.u_q/CH[3].u_ch/BUFG_GT_SYNC_1 for BUFG_GT inst/QUAD0.u_q/u_common/u_clocking/tx_ind.u_txusr3_0
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3205.035 ; gain = 0.000 ; free physical = 119766 ; free virtual = 123118
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 236 instances were transformed.
+  (CARRY4) => CARRY8: 11 instances
+  BUFG => BUFGCE: 4 instances
+  DSP48E => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 8 instances
+  FDE => FDRE: 32 instances
+  FDR => FDRE: 1 instance 
+  FDS => FDSE: 5 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 81 instances
+  MULT_AND => LUT2: 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 72 instances
+  RAMB36E1 => RAMB36E2: 16 instances
+
+Synth Design complete, checksum: 96751ca5
+INFO: [Common 17-83] Releasing license: Synthesis
+162 Infos, 213 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:26 . Memory (MB): peak = 3205.035 ; gain = 652.512 ; free physical = 119936 ; free virtual = 123287
+INFO: [Common 17-1381] The checkpoint '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.runs/ibert_ultrascale_gty_0_synth_1/ibert_ultrascale_gty_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ibert_ultrascale_gty_0, cache-ID = eb074bc6df430ae5
+INFO: [Coretcl 2-1174] Renamed 1942 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/dewei/Documents/vcu108/ibert_GTY_qsfp/project_1/project_1.runs/ibert_ultrascale_gty_0_synth_1/ibert_ultrascale_gty_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ibert_ultrascale_gty_0_utilization_synth.rpt -pb ibert_ultrascale_gty_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 10 13:41:48 2022...
